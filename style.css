@@ -141,7 +141,7 @@ form input[type="text"]:focus{
 }
 
 .signature-preview{
-	width: 530px; 
+	width: 600px; 
 	font-size: 12px;
 	background: #fff;
 	border: 1px solid #ccc;
