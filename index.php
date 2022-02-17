@@ -294,7 +294,7 @@
 		<table width="100%" cellspacing="8" style="padding-top:20px;">
 			<tr>
 				<td width="65%">
-					<p>Click "Create Signature" Then, in the new window, press <strong>CTL + A</strong> (Windows) or <strong>CMD + A</strong> (Mac) to select the content. <strong>Copy/paste</strong> this content into your email client settings.
+					<p>Click "Create Signature" In the new window, press <strong>CTL + A</strong> (Windows) or <strong>CMD + A</strong> (Mac) to select the content. <strong>Copy/paste</strong> this content into your email client settings.
                     <br />
                     <br />
                     Not sure where to go? Click the link below for instructions.
