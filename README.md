@@ -1,7 +1,7 @@
 # Email Signature Generator
-Create and manage unified email signatures for your entire team. Change the options in `index.php` to fit you company or organization. 
+Create and manage unified email signatures for your entire Assurant team. 
 
-Demo: <http://projects.mlitzinger.com/demos/email-signature/> 
+Demo: <http://jonlebron.com/github/> 
 
 Options include:
 - Company name, URL and logo
