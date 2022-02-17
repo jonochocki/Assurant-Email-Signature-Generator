@@ -207,10 +207,8 @@
 				<td><label for="secondary-number">Secondary Phone</label></td>
 				<td width="95px">
 					<select name="secondary-number-type" style="background-position: 92% center;">
-						<option value="Phone">Phone</option>
-						<option value="Office">Office</option>
-						<option value="Mobile" selected>Mobile</option>
-						<option value="Fax">Fax</option>
+						<option value="T">Phone</option>
+						<option value="C" selected>Office</option>
 					</select>
 				</td>
 				<td><input type="text" name="secondary-number" maxlength="30" /></td>
