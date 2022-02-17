@@ -292,7 +292,10 @@
 		<table width="100%" cellspacing="8" style="padding-top:20px;">
 			<tr>
 				<td width="65%">
-					<p>In the new window, press <strong>CTL + A</strong> (Windows) or <strong>CMD + A</strong> (Mac) to select the content. <strong>Copy/paste</strong> this content into your email client using one of the links listed below.<p>
+					<p>Click "Create Signature" Then, in the new window, press <strong>CTL + A</strong> (Windows) or <strong>CMD + A</strong> (Mac) to select the content. <strong>Copy/paste</strong> this content into your email client settings.
+                    <br />
+                    Not sure where to go? Click the link below for instructions.
+                    <p>
 				</td>
 				<td width="35%">
 					<input type="submit" name="create-signature" value="Create Signature" />
@@ -302,10 +305,7 @@
 				<td colspan="2">
 					<br><br>
 					<ul class="client-links">
-						<li><a href="http://mydesignpad.com/how-to-install-html-email-signature-for-google-gmail/" target="_blank">Gmail</a></li>
-						<li><a href="http://mydesignpad.com/how-to-install-html-email-signature-for-microsoft-outlook-2010-windows/" target="_blank">Outlook</a></li>
-						<li><a href="http://mydesignpad.com/create-a-html-email-signature-for-mac-os-x-mountain-lion-10-8/" target="_blank">Mac Mail</a></li>
-						<li><a href="http://mydesignpad.com/how-to-create-complex-html-email-signatures-for-mozilla-thunderbird/" target="_blank">Thunderbird</a></li>
+						<li><a href="https://info.assurant.com/l/438242/2022-02-17/92wqvk/438242/1645128922sv36sJYZ/How_to_Update_Your_Email_Signature_TA.docx" target="_blank">How-To Instructions for Outlook</a></li>
 					</ul>
 				</td>
 			</tr>
