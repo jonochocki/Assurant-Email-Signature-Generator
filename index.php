@@ -204,7 +204,7 @@
 				</td>
 			</tr>
 			<tr>
-				<td><label for="primary-number">Primary Phone *</label></td>
+				<td><label for="primary-number">Primary Phone</label></td>
 				<td width="95px">
 					<select name="primary-number-type" style="background-position: 92% center;">
 						<option value="T" selected>Phone</option>
