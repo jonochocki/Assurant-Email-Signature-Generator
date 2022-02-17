@@ -32,18 +32,12 @@
 				'https://raw.githubusercontent.com/ltzngr/Email_Signature_Generator/master/images/linkedin.png'  // Must be an absolute path
 			)
 		),
-		'address_list' => array(
-			array( 'United States', '88 Colin P Kelly Jr St, San Francisco, CA 94107, USA' ),
-			array( 'Australia', 'Homemaker City, Castlereagh Street, Sydney NSW 2000, Australia' ),
-			array( 'Japan', '1-10-５ Akasaka, Minato, Tokyo 107-0052, Japan' ),
-			array( 'United Kingdom', '24 Grosvenor Square, London W1A 2LQ, United Kingdom' )
-		),
 		'hide_address_field' => false,
 		'sample_data' => array(
 			'full_name' => 'John Doe',
 			'position'  => 'Talent Acquisition',
 			'email_address'  => 'john.doe@assurant.com',
-			'phone_number'  => '(000) 000-0000'
+			'phone_number'  => '111.111.1111'
 		)
 	);
 ?>
@@ -53,7 +47,6 @@
 	$full_name = $_POST['full-name'];
 	$position = $_POST['position'];
 	$country = $_POST['country'];
-	$address = $_POST['mailing-address'];
 	$email_address = $_POST['email'];
 	$primary_number_prefix = $_POST['primary-number-type'];
 	$secondary_number_prefix = $_POST['secondary-number-type'];
@@ -97,15 +90,6 @@
 					echo $print;
 				?>
 			</address>
-			<?php if( !$options['hide_address_field'] ) : ?>
-				<address style="font: normal 10px/15px Arial, sans-serif; color:<?php echo $options['colors']['primary']; ?>;">
-					<?php 
-						if($address != ''){
-							echo $address;
-						}
-					?>
-				</address>
-			<?php endif; ?>
 		</td>
 	</tr>
 	<tr>
@@ -372,10 +356,6 @@
 		function input_field_callback(){
 			var full_name = $('#email-signature-form input[name="full-name"]').val();
 			var position = $('#email-signature-form input[name="position"]').val();
-			
-			<?php if( !$options['hide_address_field'] ) : ?>
-			var country = $('#email-signature-form select[name="country"]').val();
-			<?php endif; ?>
 
 			var email_address = $('#email-signature-form input[name="email"]').val();
 			var primary_number_prefix = $('#email-signature-form select[name="primary-number-type"]').val();
@@ -398,17 +378,6 @@
 			else{
 				$('#position').text('<?php echo $options['sample_data']['position']; ?>');
 			}
-
-			<?php if( !$options['hide_address_field'] ) : ?>
-				<?php foreach( $options['address_list'] as $address ) : ?>
-
-					if(country == '<?php echo $address[0]; ?>'){
-						mailing_address = '<?php echo $address[1]; ?>';
-						$('#address').text(mailing_address);
-						$('#email-signature-form input[name="mailing-address"]').val(mailing_address);
-					}
-
-				<?php endforeach; ?>
 			<?php endif; ?>
 
 
