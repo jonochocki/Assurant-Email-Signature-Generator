@@ -86,7 +86,10 @@
 			</address>
 			<address style="font: normal 14px/16px 'Open Sans', Helvetica, Arial, sans-serif; color:<?php echo $options['colors']['primary']; ?>;">
 				<?php
-					if($secondary_number != ''){
+					if($primary_number != ''){
+						$print = '';
+					}
+					else if($secondary_number != ''){
 						$print = $primary_number_prefix.': '.$primary_number.' | '.$secondary_number_prefix.': '.$secondary_number;
 					}
 					else{
