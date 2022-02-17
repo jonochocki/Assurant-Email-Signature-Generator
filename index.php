@@ -4,7 +4,7 @@
 		'company_name' => 'Assurant',
 		'company_url'  => 'https://assurant.com', 
 		'email_domain' => 'assurant.com', // Do not prepend with http://
-		'logo_url'     => 'https://www.assurant.com/images/assurant/nextgen/assurant-logo.png',  // Must be an absolute path
+		'logo_url'     => 'https://raw.githubusercontent.com/jonochocki/Assurant-Email-Signature-Generator/main/images/assurant-logo.png',  // Must be an absolute path
 		'colors'       => array(
 			'primary'   => '#646464', // Name, emal address, phone and address
 			'secondary' => '#0066cc', // Title/position
