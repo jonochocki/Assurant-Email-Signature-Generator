@@ -10,26 +10,30 @@
 			'secondary' => '#0066cc', // Title/position
 			'tertiary'  => '#b4b4b4'  // Horizontal border
 		),
-		'social_urls' => array(
-			'facebook'  => array(
-				'https://www.facebook.com/github', // Hide by setting this to an empty string
-				'https://raw.githubusercontent.com/ltzngr/Email_Signature_Generator/master/images/facebook.png'  // Must be an absolute path
+		'image_urls' => array(
+			'great_place'  => array(
+				'https://www.greatplacetowork.com/certified-company/1205926', // Hide by setting this to an empty string
+				'https://raw.githubusercontent.com/jonochocki/Assurant-Email-Signature-Generator/main/images/thumbnail_image002.jpg'  // Must be an absolute path
 			),
-			'twitter'   => array(
-				'https://twitter.com/github', // Hide by setting this to an empty string
-				'https://raw.githubusercontent.com/ltzngr/Email_Signature_Generator/master/images/twitter.png'  // Must be an absolute path
+			'careers'   => array(
+				'https://www.myworkday.com/assurant/d/task/1422$80.htmld', // Hide by setting this to an empty string
+				'https://raw.githubusercontent.com/jonochocki/Assurant-Email-Signature-Generator/main/images/thumbnail_image003.png'  // Must be an absolute path
 			),
-			'instagram' => array(
-				'http://instagram.com/github', // Hide by setting this to an empty string
-				'https://raw.githubusercontent.com/ltzngr/Email_Signature_Generator/master/images/instagram.png'  // Must be an absolute path
+			'awards' => array(
+				'https://jobs.assurant.com/awards/?source=emailsignature', // Hide by setting this to an empty string
+				'https://raw.githubusercontent.com/jonochocki/Assurant-Email-Signature-Generator/main/images/thumbnail_image004.png'  // Must be an absolute path
 			),
-			'vimeo'     => array(
-				'https://vimeo.com/github', // Hide by setting this to an empty string
-				'https://raw.githubusercontent.com/ltzngr/Email_Signature_Generator/master/images/vimeo.png'  // Must be an absolute path
+			'dei'     => array(
+				'https://www.assurant.com/our-story/diversity?utm_source=outlook&utm_medium=email&utm_campaign=signature&utm_content=click', // Hide by setting this to an empty string
+				'https://raw.githubusercontent.com/jonochocki/Assurant-Email-Signature-Generator/main/images/thumbnail_image005.png'  // Must be an absolute path
 			),
-			'linkedin'  => array(
-				'http://www.linkedin.com/company/github', // Hide by setting this to an empty string
-				'https://raw.githubusercontent.com/ltzngr/Email_Signature_Generator/master/images/linkedin.png'  // Must be an absolute path
+			'we_care'  => array(
+				'https://www.assurant.com/our-story/social-responsibility?utm_source=outlook&utm_medium=email&utm_campaign=signature&utm_content=click', // Hide by setting this to an empty string
+				'https://raw.githubusercontent.com/jonochocki/Assurant-Email-Signature-Generator/main/images/thumbnail_image006.png'  // Must be an absolute path
+			),
+			'referrals'  => array(
+				'https://assurantconnects.sharepoint.com/teams/learning/MyHRWD/Workday%20Job%20Aids/EmpRefJobSrch-JA.pdf', // Hide by setting this to an empty string
+				'https://raw.githubusercontent.com/jonochocki/Assurant-Email-Signature-Generator/main/images/thumbnail_image007.png'  // Must be an absolute path
 			)
 		),
 		'address_list' => array(
@@ -66,7 +70,7 @@
 	<tr>
 		<td style="border-bottom: 1px solid <?php echo $options['colors']['tertiary']; ?>; padding-bottom: 14px;">
 			<h2 id="full-name" style="font:bold 18px/22px 'Open Sans' Helvetica, Arial, sans-serif; letter-spacing:-1px; text-transform:propercase; color:<?php echo $options['colors']['primary']; ?>; margin:0; padding:0;"><?php echo $full_name; ?></h2>
-			<h3 id="position" style="font:bold 14px/16px 'Open Sans' Helvetica, Arial, sans-serif; letter-spacing:-1px; text-transform:propercase; color:<?php echo $options['colors']['secondary']; ?>; margin:0; padding:0;"><?php echo $position; ?></h3>
+			<h3 id="position" style="font:normal 14px/16px 'Open Sans' Helvetica, Arial, sans-serif; letter-spacing:-1px; text-transform:propercase; color:<?php echo $options['colors']['secondary']; ?>; margin:0; padding:0;"><?php echo $position; ?></h3>
 		</td>
 	</tr>
 	<tr>
@@ -110,29 +114,29 @@
 	</tr>
 	<tr>
 		<td style="padding-top: 10px;">
-			<?php if( $options['social_urls']['facebook'][0] != '' ) : ?>
-				<a href="<?php echo $options['social_urls']['facebook'][0]; ?>" target="_blank" title="Facebook" style="text-align: center; display: inline-block; margin: 0px 8px 0 0;">
-					<img src="<?php echo $options['social_urls']['facebook'][1]; ?>" alt="Facebook" width="18px" height="18px" />
+			<?php if( $options['image_urls']['great_place'][0] != '' ) : ?>
+				<a href="<?php echo $options['image_urls']['great_place'][0]; ?>" target="_blank" title="great_place" style="text-align: center; display: inline-block; margin: 0px 8px 0 0;">
+					<img src="<?php echo $options['image_urls']['great_place'][1]; ?>" alt="great_place" width="18px" height="18px" />
 				</a>
 			<?php endif; ?>
-			<?php if( $options['social_urls']['twitter'][0] != '' ) : ?>
-				<a href="<?php echo $options['social_urls']['twitter'][0]; ?>" target="_blank" title="Twitter" style="text-align: center; display: inline-block; margin: 0px 8px 0 0;">
-					<img src="<?php echo $options['social_urls']['twitter'][1]; ?>" alt="Twitter" width="18px" height="18px" />
+			<?php if( $options['image_urls']['careers'][0] != '' ) : ?>
+				<a href="<?php echo $options['image_urls']['careers'][0]; ?>" target="_blank" title="careers" style="text-align: center; display: inline-block; margin: 0px 8px 0 0;">
+					<img src="<?php echo $options['image_urls']['careers'][1]; ?>" alt="careers" width="18px" height="18px" />
 				</a>
 			<?php endif; ?>
-			<?php if( $options['social_urls']['instagram'][0] != '' ) : ?>
-				<a href="<?php echo $options['social_urls']['instagram'][0]; ?>" target="_blank" title="Instagram" style="text-align: center; display: inline-block; margin: 0px 8px 0 0;">
-					<img src="<?php echo $options['social_urls']['instagram'][1]; ?>" alt="Instagram" width="18px" height="18px" />
+			<?php if( $options['image_urls']['awards'][0] != '' ) : ?>
+				<a href="<?php echo $options['image_urls']['awards'][0]; ?>" target="_blank" title="awards" style="text-align: center; display: inline-block; margin: 0px 8px 0 0;">
+					<img src="<?php echo $options['image_urls']['awards'][1]; ?>" alt="awards" width="18px" height="18px" />
 				</a>
 			<?php endif; ?>
-			<?php if( $options['social_urls']['vimeo'][0] != '' ) : ?>
-				<a href="<?php echo $options['social_urls']['vimeo'][0]; ?>" target="_blank" title="Vimeo" style="text-align: center; display: inline-block; margin: 0px 8px 0 0;">
-					<img src="<?php echo $options['social_urls']['vimeo'][1]; ?>" alt="Vimeo" width="18px" height="18px" />
+			<?php if( $options['image_urls']['dei'][0] != '' ) : ?>
+				<a href="<?php echo $options['image_urls']['dei'][0]; ?>" target="_blank" title="dei" style="text-align: center; display: inline-block; margin: 0px 8px 0 0;">
+					<img src="<?php echo $options['image_urls']['dei'][1]; ?>" alt="dei" width="18px" height="18px" />
 				</a>
 			<?php endif; ?>
-			<?php if( $options['social_urls']['linkedin'][0] != '' ) : ?>
-				<a href="<?php echo $options['social_urls']['linkedin'][0]; ?>" target="_blank" title="LinkedIn" style="text-align: center; display: inline-block; margin: 0px 8px 0 0;">
-					<img src="<?php echo $options['social_urls']['linkedin'][1]; ?>" alt="LinkedIn" width="18px" height="18px" />
+			<?php if( $options['image_urls']['we_care'][0] != '' ) : ?>
+				<a href="<?php echo $options['image_urls']['we_care'][0]; ?>" target="_blank" title="we_care" style="text-align: center; display: inline-block; margin: 0px 8px 0 0;">
+					<img src="<?php echo $options['image_urls']['we_care'][1]; ?>" alt="we_care" width="18px" height="18px" />
 				</a>
 			<?php endif; ?>
 		</td>
@@ -248,29 +252,29 @@
 				</tr>
 				<tr>
 					<td style="padding-top: 10px;">
-						<?php if( $options['social_urls']['facebook'][0] != '' ) : ?>
-							<a href="<?php echo $options['social_urls']['facebook'][0]; ?>" target="_blank" title="Facebook" style="text-align: center; display: inline-block; margin: 0px 8px 0 0;">
-								<img src="<?php echo $options['social_urls']['facebook'][1]; ?>" alt="Facebook" width="18px" height="18px" />
+						<?php if( $options['image_urls']['great_place'][0] != '' ) : ?>
+							<a href="<?php echo $options['image_urls']['great_place'][0]; ?>" target="_blank" title="great_place" style="text-align: center; display: inline-block; margin: 0px 8px 0 0;">
+								<img src="<?php echo $options['image_urls']['great_place'][1]; ?>" alt="great_place" width="18px" height="18px" />
 							</a>
 						<?php endif; ?>
-						<?php if( $options['social_urls']['twitter'][0] != '' ) : ?>
-							<a href="<?php echo $options['social_urls']['twitter'][0]; ?>" target="_blank" title="Twitter" style="text-align: center; display: inline-block; margin: 0px 8px 0 0;">
-								<img src="<?php echo $options['social_urls']['twitter'][1]; ?>" alt="Twitter" width="18px" height="18px" />
+						<?php if( $options['image_urls']['careers'][0] != '' ) : ?>
+							<a href="<?php echo $options['image_urls']['careers'][0]; ?>" target="_blank" title="careers" style="text-align: center; display: inline-block; margin: 0px 8px 0 0;">
+								<img src="<?php echo $options['image_urls']['careers'][1]; ?>" alt="careers" width="18px" height="18px" />
 							</a>
 						<?php endif; ?>
-						<?php if( $options['social_urls']['instagram'][0] != '' ) : ?>
-							<a href="<?php echo $options['social_urls']['instagram'][0]; ?>" target="_blank" title="Instagram" style="text-align: center; display: inline-block; margin: 0px 8px 0 0;">
-								<img src="<?php echo $options['social_urls']['instagram'][1]; ?>" alt="Instagram" width="18px" height="18px" />
+						<?php if( $options['image_urls']['awards'][0] != '' ) : ?>
+							<a href="<?php echo $options['image_urls']['awards'][0]; ?>" target="_blank" title="awards" style="text-align: center; display: inline-block; margin: 0px 8px 0 0;">
+								<img src="<?php echo $options['image_urls']['awards'][1]; ?>" alt="awards" width="18px" height="18px" />
 							</a>
 						<?php endif; ?>
-						<?php if( $options['social_urls']['vimeo'][0] != '' ) : ?>
-							<a href="<?php echo $options['social_urls']['vimeo'][0]; ?>" target="_blank" title="Vimeo" style="text-align: center; display: inline-block; margin: 0px 8px 0 0;">
-								<img src="<?php echo $options['social_urls']['vimeo'][1]; ?>" alt="Vimeo" width="18px" height="18px" />
+						<?php if( $options['image_urls']['dei'][0] != '' ) : ?>
+							<a href="<?php echo $options['image_urls']['dei'][0]; ?>" target="_blank" title="dei" style="text-align: center; display: inline-block; margin: 0px 8px 0 0;">
+								<img src="<?php echo $options['image_urls']['dei'][1]; ?>" alt="dei" width="18px" height="18px" />
 							</a>
 						<?php endif; ?>
-						<?php if( $options['social_urls']['linkedin'][0] != '' ) : ?>
-							<a href="<?php echo $options['social_urls']['linkedin'][0]; ?>" target="_blank" title="LinkedIn" style="text-align: center; display: inline-block; margin: 0px 8px 0 0;">
-								<img src="<?php echo $options['social_urls']['linkedin'][1]; ?>" alt="LinkedIn" width="18px" height="18px" />
+						<?php if( $options['image_urls']['we_care'][0] != '' ) : ?>
+							<a href="<?php echo $options['image_urls']['we_care'][0]; ?>" target="_blank" title="we_care" style="text-align: center; display: inline-block; margin: 0px 8px 0 0;">
+								<img src="<?php echo $options['image_urls']['we_care'][1]; ?>" alt="we_care" width="18px" height="18px" />
 							</a>
 						<?php endif; ?>
 					</td>
