@@ -70,12 +70,12 @@
 	<tr>
 		<td style="border-bottom: 1px solid <?php echo $options['colors']['tertiary']; ?>; padding-bottom: 14px;">
 			<h2 id="full-name" style="font:bold 18px/22px 'Open Sans',  Helvetica, Arial, sans-serif; letter-spacing:-1px; text-transform:capitalize; color:<?php echo $options['colors']['primary']; ?>; margin:0; padding:0;"><?php echo $full_name; ?></h2>
-			<h3 id="position" style="font:normal 14px/16px 'Open Sans',  Helvetica, Arial, sans-serif; letter-spacing:-1px; text-transform:capitalize; color:<?php echo $options['colors']['secondary']; ?>; margin:0; padding:0;"><?php echo $position; ?></h3>
+			<h3 id="position" style="font:normal 300 14px/16px 'Open Sans',  Helvetica, Arial, sans-serif; letter-spacing:-1px; text-transform:capitalize; color:<?php echo $options['colors']['secondary']; ?>; margin:0; padding-top:5px;"><?php echo $position; ?></h3>
 		</td>
 	</tr>
 	<tr>
 		<td>
-			<a style="width:125px;; margin:16px 0 8px; display:block;" href="<?php echo $options['company_url']; ?>" target="_blank" title="<?php echo $options['company_name']; ?>">
+			<a style="width:180px;; margin:16px 0 8px; display:block;" href="<?php echo $options['company_url']; ?>" target="_blank" title="<?php echo $options['company_name']; ?>">
 				<img src="<?php echo $options['logo_url']; ?>" alt="<?php echo $options['company_name']; ?>" width="180px;" />
 			</a>
 		</td>
