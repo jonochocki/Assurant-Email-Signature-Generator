@@ -74,13 +74,6 @@
 		</td>
 	</tr>
 	<tr>
-		<td>
-			<a style="width:180px;; margin:16px 0 8px; display:block;" href="<?php echo $options['company_url']; ?>" target="_blank" title="<?php echo $options['company_name']; ?>">
-				<img src="<?php echo $options['logo_url']; ?>" alt="<?php echo $options['company_name']; ?>" width="180px;" />
-			</a>
-		</td>
-	</tr>
-	<tr>
 		<td colspan="2">
 			<address id="email-address" style="font: normal 14px/16px 'Open Sans', Helvetica, Arial, sans-serif; color:<?php echo $options['colors']['primary']; ?>;">
 				<?php
@@ -110,6 +103,13 @@
 					?>
 				</address>
 			<?php endif; ?>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<a style="width:180px; margin:16px 0 8px; display:block;" href="<?php echo $options['company_url']; ?>" target="_blank" title="<?php echo $options['company_name']; ?>">
+				<img src="<?php echo $options['logo_url']; ?>" alt="<?php echo $options['company_name']; ?>" width="180px;" />
+			</a>
 		</td>
 	</tr>
 	<tr>
@@ -230,13 +230,6 @@
 					</td>
 				</tr>
 				<tr>
-					<td>
-						<a style="width:180px; margin:16px 0 8px; display:block;" href="<?php echo $options['company_url']; ?>" target="_blank" title="<?php echo $options['company_name']; ?>">
-							<img src="<?php echo $options['logo_url']; ?>" alt="<?php echo $options['company_name']; ?>" width="180px" />
-						</a>
-					</td>
-				</tr>
-				<tr>
 					<td colspan="2">
 						<address id="email-address" style="font: normal 14px/16px 'Open Sans',  Helvetica, Arial, sans-serif; color:<?php echo $options['colors']['primary']; ?>;">
 							<?php echo 'Email: ' . $options['sample_data']['email_address']; ?>
@@ -249,6 +242,13 @@
 								<?php echo $options['address_list'][0][1]; ?>
 							</address>
 						<?php endif; ?>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a style="width:180px; margin:16px 0 8px; display:block;" href="<?php echo $options['company_url']; ?>" target="_blank" title="<?php echo $options['company_name']; ?>">
+							<img src="<?php echo $options['logo_url']; ?>" alt="<?php echo $options['company_name']; ?>" width="180px" />
+						</a>
 					</td>
 				</tr>
 				<tr>
