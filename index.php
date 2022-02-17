@@ -86,7 +86,7 @@
 			</address>
 			<address style="font: normal 14px/16px 'Open Sans', Helvetica, Arial, sans-serif; color:<?php echo $options['colors']['primary']; ?>;">
 				<?php
-					if($primary_number != ''){
+					if($primary_number !=== ''){
 						$print = '';
 					}
 					else if($secondary_number != ''){
