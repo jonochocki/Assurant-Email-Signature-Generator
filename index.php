@@ -13,7 +13,7 @@
 		'image_urls' => array(
 			'great_place'  => array(
 				'https://www.greatplacetowork.com/certified-company/1205926', // Hide by setting this to an empty string
-				'https://raw.githubusercontent.com/jonochocki/Assurant-Email-Signature-Generator/main/images/thumbnail_image002.jpg'  // Must be an absolute path
+				'https://raw.githubusercontent.com/jonochocki/Assurant-Email-Signature-Generator/main/images/thumbnail_image002.png'  // Must be an absolute path
 			),
 			'careers'   => array(
 				'https://www.myworkday.com/assurant/d/task/1422$80.htmld', // Hide by setting this to an empty string
@@ -228,6 +228,7 @@
 					<td style="padding-bottom: 14px;">
 						<h2 id="full-name" style="font:bold 18px/22px 'Open Sans', Helvetica, Arial, sans-serif; letter-spacing:-1px; text-transform:capitalize; color:<?php echo $options['colors']['primary']; ?>; margin:0; padding:0;"><?php echo $options['sample_data']['full_name']; ?></h2>
 						<h3 id="position" style="font:normal 14px/16px 'Open Sans', Helvetica, Arial, sans-serif; letter-spacing:-1px; text-transform:capitalize; color:<?php echo $options['colors']['secondary']; ?>; margin:0; padding-top:5px;"><?php echo $options['sample_data']['position']; ?></h3>
+                        <h3 style="font:normal 14px/16px 'Open Sans',  Helvetica, Arial, sans-serif; text-transform:capitalize; color:<?php echo $options['colors']['secondary']; ?>; margin:0; padding-top:1px;"><a href="<?php echo $options['company_url']; ?>" target="_blank" title="<?php echo $options['company_name']; ?>" style="color:'. $options['colors']['primary'] .'; text-decoration:none;"><?php echo $options['company_name']; ?></a></h3>
 					</td>
 				</tr>
 				<tr>
