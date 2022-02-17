@@ -117,32 +117,32 @@
 		<td style="padding-top: 10px;">
 			<?php if( $options['image_urls']['great_place'][0] != '' ) : ?>
 				<a href="<?php echo $options['image_urls']['great_place'][0]; ?>" target="_blank" title="great_place" style="text-align: center; display: inline-block; margin: 0px 8px 0 0;">
-					<img src="<?php echo $options['image_urls']['great_place'][1]; ?>" alt="great_place" height="100px" />
+					<img src="<?php echo $options['image_urls']['great_place'][1]; ?>" alt="great_place" height="80px" />
 				</a>
 			<?php endif; ?>
 			<?php if( $options['image_urls']['careers'][0] != '' ) : ?>
 				<a href="<?php echo $options['image_urls']['careers'][0]; ?>" target="_blank" title="careers" style="text-align: center; display: inline-block; margin: 0px 8px 0 0;">
-					<img src="<?php echo $options['image_urls']['careers'][1]; ?>" alt="careers" height="100px" />
+					<img src="<?php echo $options['image_urls']['careers'][1]; ?>" alt="careers" width="80px" />
 				</a>
 			<?php endif; ?>
 			<?php if( $options['image_urls']['awards'][0] != '' ) : ?>
 				<a href="<?php echo $options['image_urls']['awards'][0]; ?>" target="_blank" title="awards" style="text-align: center; display: inline-block; margin: 0px 8px 0 0;">
-					<img src="<?php echo $options['image_urls']['awards'][1]; ?>" alt="awards" height="100px" />
+					<img src="<?php echo $options['image_urls']['awards'][1]; ?>" alt="awards" width="80px" />
 				</a>
 			<?php endif; ?>
 			<?php if( $options['image_urls']['dei'][0] != '' ) : ?>
 				<a href="<?php echo $options['image_urls']['dei'][0]; ?>" target="_blank" title="dei" style="text-align: center; display: inline-block; margin: 0px 8px 0 0;">
-					<img src="<?php echo $options['image_urls']['dei'][1]; ?>" alt="dei" height="100px" />
+					<img src="<?php echo $options['image_urls']['dei'][1]; ?>" alt="dei" width="80px" />
 				</a>
 			<?php endif; ?>
 			<?php if( $options['image_urls']['we_care'][0] != '' ) : ?>
 				<a href="<?php echo $options['image_urls']['we_care'][0]; ?>" target="_blank" title="we_care" style="text-align: center; display: inline-block; margin: 0px 8px 0 0;">
-					<img src="<?php echo $options['image_urls']['we_care'][1]; ?>" alt="we_care" height="100px" />
+					<img src="<?php echo $options['image_urls']['we_care'][1]; ?>" alt="we_care" width="80px" />
 				</a>
 			<?php endif; ?>
 			<?php if( $options['image_urls']['referrals'][0] != '' ) : ?>
 				<a href="<?php echo $options['image_urls']['referrals'][0]; ?>" target="_blank" title="referrals" style="text-align: center; display: inline-block; margin: 0px 8px 0 0;">
-					<img src="<?php echo $options['image_urls']['referrals'][1]; ?>" alt="we_care" height="100px" />
+					<img src="<?php echo $options['image_urls']['referrals'][1]; ?>" alt="we_care" width="80px" />
 				</a>
 			<?php endif; ?>
 		</td>
@@ -237,7 +237,7 @@
 							<?php echo 'Email: ' . $options['sample_data']['email_address']; ?>
 						</address>
 						<address id="phone-number" style="font: normal 14px/16px 'Open Sans',  Helvetica, Arial, sans-serif; color:<?php echo $options['colors']['primary']; ?>;">
-							<?php echo 'Phone: ' . $options['sample_data']['phone_number']; ?>
+							<?php echo 'T: ' . $options['sample_data']['phone_number']; ?>
 						</address>
 						<?php if( !$options['hide_address_field'] ) : ?>
 							<address id="address" style="font: normal 14px/16px 'Open Sans',  Helvetica, Arial, sans-serif; color:<?php echo $options['colors']['primary']; ?>">
