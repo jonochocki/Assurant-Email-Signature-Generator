@@ -6,7 +6,7 @@
 		'email_domain' => 'assurant.com', // Do not prepend with http://
 		'logo_url'     => 'https://www.assurant.com/images/assurant/nextgen/assurant-logo.png',  // Must be an absolute path
 		'colors'       => array(
-			'primary'   => '#020202', // Name, emal address, phone and address
+			'primary'   => '#646464', // Name, emal address, phone and address
 			'secondary' => '#0066cc', // Title/position
 			'tertiary'  => '#b4b4b4'  // Horizontal border
 		),
