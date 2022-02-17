@@ -66,7 +66,7 @@
 ?>
 
 <!-- EMAIL SIGNATURE OUTPUT -->
-<table style="width:550px; font-size:11px; font-family:'Open Sans',  Helvetica, Arial, sans-serif; margin:0; padding:0;">
+<table style="width:600px; font-size:11px; font-family:'Open Sans',  Helvetica, Arial, sans-serif; margin:0; padding:0;">
 	<tr>
 		<td style="padding-bottom: 14px;">
 			<h2 id="full-name" style="font:bold 18px/22px 'Open Sans',  Helvetica, Arial, sans-serif; letter-spacing:-1px; text-transform:capitalize; color:<?php echo $options['colors']['primary']; ?>; margin:0; padding:0;"><?php echo $full_name; ?></h2>
@@ -257,7 +257,7 @@
 					<td style="padding-top: 10px;">
 						<?php if( $options['image_urls']['great_place'][0] != '' ) : ?>
 							<a href="<?php echo $options['image_urls']['great_place'][0]; ?>" target="_blank" title="great_place" style="text-align: center; display: inline-block; margin: 0px 8px 0 0;">
-								<img src="<?php echo $options['image_urls']['great_place'][1]; ?>" alt="great_place" width="80px" />
+								<img src="<?php echo $options['image_urls']['great_place'][1]; ?>" alt="great_place" height="120px" />
 							</a>
 						<?php endif; ?>
 						<?php if( $options['image_urls']['careers'][0] != '' ) : ?>
