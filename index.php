@@ -197,10 +197,8 @@
 				<td><label for="primary-number">Primary Phone *</label></td>
 				<td width="95px">
 					<select name="primary-number-type" style="background-position: 92% center;">
-						<option value="Phone" selected>Phone</option>
-						<option value="Office">Office</option>
-						<option value="Mobile">Mobile</option>
-						<option value="Fax">Fax</option>
+						<option value="T" selected>Phone</option>
+						<option value="C">Cell Phone</option>
 					</select>
 				</td>
 				<td><input type="text" name="primary-number" /></td>
