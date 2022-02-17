@@ -66,11 +66,11 @@
 ?>
 
 <!-- EMAIL SIGNATURE OUTPUT -->
-<table style="width:550px; font-size:11px; font-family:'Open Sans' Helvetica, Arial, sans-serif; margin:0; padding:0;">
+<table style="width:550px; font-size:11px; font-family:'Open Sans' , Helvetica, Arial, sans-serif; margin:0; padding:0;">
 	<tr>
 		<td style="border-bottom: 1px solid <?php echo $options['colors']['tertiary']; ?>; padding-bottom: 14px;">
-			<h2 id="full-name" style="font:bold 18px/22px 'Open Sans' Helvetica, Arial, sans-serif; letter-spacing:-1px; text-transform:capitalize; color:<?php echo $options['colors']['primary']; ?>; margin:0; padding:0;"><?php echo $full_name; ?></h2>
-			<h3 id="position" style="font:normal 14px/16px 'Open Sans' Helvetica, Arial, sans-serif; letter-spacing:-1px; text-transform:capitalize; color:<?php echo $options['colors']['secondary']; ?>; margin:0; padding:0;"><?php echo $position; ?></h3>
+			<h2 id="full-name" style="font:bold 18px/22px 'Open Sans' , Helvetica, Arial, sans-serif; letter-spacing:-1px; text-transform:capitalize; color:<?php echo $options['colors']['primary']; ?>; margin:0; padding:0;"><?php echo $full_name; ?></h2>
+			<h3 id="position" style="font:normal 14px/16px 'Open Sans' , Helvetica, Arial, sans-serif; letter-spacing:-1px; text-transform:capitalize; color:<?php echo $options['colors']['secondary']; ?>; margin:0; padding:0;"><?php echo $position; ?></h3>
 		</td>
 	</tr>
 	<tr>
@@ -82,7 +82,7 @@
 	</tr>
 	<tr>
 		<td colspan="2">
-			<address id="email-address" style="font: normal 10px/15px 'Open Sans' Helvetica, Arial, sans-serif; color:<?php echo $options['colors']['primary']; ?>;">
+			<address id="email-address" style="font: normal 10px/15px 'Open Sans', Helvetica, Arial, sans-serif; color:<?php echo $options['colors']['primary']; ?>;">
 				<?php
 					if($email_address != ''){
 						$print = 'Email: <a href="mailto:'.$email_address.'@'. $options['email_domain'] .'" target="_blank" style="color:'. $options['colors']['primary'] .'; text-decoration:none;">'.$email_address.'@'. $options['email_domain'] .'</a>';
@@ -90,7 +90,7 @@
 					}
 				?>
 			</address>
-			<address style="font: normal 10px/15px 'Open Sans' Helvetica, Arial, sans-serif; color:<?php echo $options['colors']['primary']; ?>;">
+			<address style="font: normal 10px/15px 'Open Sans', Helvetica, Arial, sans-serif; color:<?php echo $options['colors']['primary']; ?>;">
 				<?php
 					if($secondary_number != ''){
 						$print = $primary_number_prefix.': '.$primary_number.' | '.$secondary_number_prefix.': '.$secondary_number;
@@ -102,7 +102,7 @@
 				?>
 			</address>
 			<?php if( !$options['hide_address_field'] ) : ?>
-				<address style="font: normal 10px/15px 'Open Sans' Helvetica, Arial, sans-serif; color:<?php echo $options['colors']['primary']; ?>;">
+				<address style="font: normal 10px/15px 'Open Sans', Helvetica, Arial, sans-serif; color:<?php echo $options['colors']['primary']; ?>;">
 					<?php 
 						if($address != ''){
 							echo $address;
@@ -224,8 +224,8 @@
 			<table style="width:100%;">
 				<tr>
 					<td style="border-bottom: 1px solid <?php echo $options['colors']['tertiary']; ?>; padding-bottom: 14px;">
-						<h2 id="full-name" style="font:bold 18px/22px 'Open Sans' Helvetica, Arial, sans-serif; letter-spacing:-1px; text-transform:capitalize; color:<?php echo $options['colors']['primary']; ?>; margin:0; padding:0;"><?php echo $options['sample_data']['full_name']; ?></h2>
-						<h3 id="position" style="font:bold 14px/16px 'Open Sans' Helvetica, Arial, sans-serif; letter-spacing:-1px; text-transform:capitalize; color:<?php echo $options['colors']['secondary']; ?>; margin:0; padding:0;"><?php echo $options['sample_data']['position']; ?></h3>
+						<h2 id="full-name" style="font:bold 18px/22px 'Open Sans', Helvetica, Arial, sans-serif; letter-spacing:-1px; text-transform:capitalize; color:<?php echo $options['colors']['primary']; ?>; margin:0; padding:0;"><?php echo $options['sample_data']['full_name']; ?></h2>
+						<h3 id="position" style="font:bold 14px/16px 'Open Sans', Helvetica, Arial, sans-serif; letter-spacing:-1px; text-transform:capitalize; color:<?php echo $options['colors']['secondary']; ?>; margin:0; padding:0;"><?php echo $options['sample_data']['position']; ?></h3>
 					</td>
 				</tr>
 				<tr>
@@ -237,14 +237,14 @@
 				</tr>
 				<tr>
 					<td colspan="2">
-						<address id="email-address" style="font: normal 10px/15px 'Open Sans' Helvetica, Arial, sans-serif; color:<?php echo $options['colors']['primary']; ?>;">
+						<address id="email-address" style="font: normal 10px/15px 'Open Sans' , Helvetica, Arial, sans-serif; color:<?php echo $options['colors']['primary']; ?>;">
 							<?php echo 'Email: ' . $options['sample_data']['email_address']; ?>
 						</address>
-						<address id="phone-number" style="font: normal 10px/15px 'Open Sans' Helvetica, Arial, sans-serif; color:<?php echo $options['colors']['primary']; ?>;">
+						<address id="phone-number" style="font: normal 10px/15px 'Open Sans' , Helvetica, Arial, sans-serif; color:<?php echo $options['colors']['primary']; ?>;">
 							<?php echo 'Phone: ' . $options['sample_data']['phone_number']; ?>
 						</address>
 						<?php if( !$options['hide_address_field'] ) : ?>
-							<address id="address" style="font: normal 10px/15px 'Open Sans' Helvetica, Arial, sans-serif; color:<?php echo $options['colors']['primary']; ?>">
+							<address id="address" style="font: normal 10px/15px 'Open Sans' , Helvetica, Arial, sans-serif; color:<?php echo $options['colors']['primary']; ?>">
 								<?php echo $options['address_list'][0][1]; ?>
 							</address>
 						<?php endif; ?>
