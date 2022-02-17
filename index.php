@@ -116,27 +116,27 @@
 		<td style="padding-top: 10px;">
 			<?php if( $options['image_urls']['great_place'][0] != '' ) : ?>
 				<a href="<?php echo $options['image_urls']['great_place'][0]; ?>" target="_blank" title="great_place" style="text-align: center; display: inline-block; margin: 0px 8px 0 0;">
-					<img src="<?php echo $options['image_urls']['great_place'][1]; ?>" alt="great_place" width="18px" height="18px" />
+					<img src="<?php echo $options['image_urls']['great_place'][1]; ?>" alt="great_place" width="50px" />
 				</a>
 			<?php endif; ?>
 			<?php if( $options['image_urls']['careers'][0] != '' ) : ?>
 				<a href="<?php echo $options['image_urls']['careers'][0]; ?>" target="_blank" title="careers" style="text-align: center; display: inline-block; margin: 0px 8px 0 0;">
-					<img src="<?php echo $options['image_urls']['careers'][1]; ?>" alt="careers" width="18px" height="18px" />
+					<img src="<?php echo $options['image_urls']['careers'][1]; ?>" alt="careers" width="50px" />
 				</a>
 			<?php endif; ?>
 			<?php if( $options['image_urls']['awards'][0] != '' ) : ?>
 				<a href="<?php echo $options['image_urls']['awards'][0]; ?>" target="_blank" title="awards" style="text-align: center; display: inline-block; margin: 0px 8px 0 0;">
-					<img src="<?php echo $options['image_urls']['awards'][1]; ?>" alt="awards" width="18px" height="18px" />
+					<img src="<?php echo $options['image_urls']['awards'][1]; ?>" alt="awards" width="50px" />
 				</a>
 			<?php endif; ?>
 			<?php if( $options['image_urls']['dei'][0] != '' ) : ?>
 				<a href="<?php echo $options['image_urls']['dei'][0]; ?>" target="_blank" title="dei" style="text-align: center; display: inline-block; margin: 0px 8px 0 0;">
-					<img src="<?php echo $options['image_urls']['dei'][1]; ?>" alt="dei" width="18px" height="18px" />
+					<img src="<?php echo $options['image_urls']['dei'][1]; ?>" alt="dei" width="50px" />
 				</a>
 			<?php endif; ?>
 			<?php if( $options['image_urls']['we_care'][0] != '' ) : ?>
 				<a href="<?php echo $options['image_urls']['we_care'][0]; ?>" target="_blank" title="we_care" style="text-align: center; display: inline-block; margin: 0px 8px 0 0;">
-					<img src="<?php echo $options['image_urls']['we_care'][1]; ?>" alt="we_care" width="18px" height="18px" />
+					<img src="<?php echo $options['image_urls']['we_care'][1]; ?>" alt="we_care" width="50px" />
 				</a>
 			<?php endif; ?>
 		</td>
