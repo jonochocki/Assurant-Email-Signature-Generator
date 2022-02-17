@@ -69,8 +69,8 @@
 <table style="width:550px; font-size:11px; font-family:'Open Sans' Helvetica, Arial, sans-serif; margin:0; padding:0;">
 	<tr>
 		<td style="border-bottom: 1px solid <?php echo $options['colors']['tertiary']; ?>; padding-bottom: 14px;">
-			<h2 id="full-name" style="font:bold 18px/22px 'Open Sans' Helvetica, Arial, sans-serif; letter-spacing:-1px; text-transform:propercase; color:<?php echo $options['colors']['primary']; ?>; margin:0; padding:0;"><?php echo $full_name; ?></h2>
-			<h3 id="position" style="font:normal 14px/16px 'Open Sans' Helvetica, Arial, sans-serif; letter-spacing:-1px; text-transform:propercase; color:<?php echo $options['colors']['secondary']; ?>; margin:0; padding:0;"><?php echo $position; ?></h3>
+			<h2 id="full-name" style="font:bold 18px/22px 'Open Sans' Helvetica, Arial, sans-serif; letter-spacing:-1px; text-transform:capitalize; color:<?php echo $options['colors']['primary']; ?>; margin:0; padding:0;"><?php echo $full_name; ?></h2>
+			<h3 id="position" style="font:normal 14px/16px 'Open Sans' Helvetica, Arial, sans-serif; letter-spacing:-1px; text-transform:capitalize; color:<?php echo $options['colors']['secondary']; ?>; margin:0; padding:0;"><?php echo $position; ?></h3>
 		</td>
 	</tr>
 	<tr>
@@ -224,8 +224,8 @@
 			<table style="width:100%;">
 				<tr>
 					<td style="border-bottom: 1px solid <?php echo $options['colors']['tertiary']; ?>; padding-bottom: 14px;">
-						<h2 id="full-name" style="font:bold 18px/22px 'Open Sans' Helvetica, Arial, sans-serif; letter-spacing:-1px; text-transform:propercase; color:<?php echo $options['colors']['primary']; ?>; margin:0; padding:0;"><?php echo $options['sample_data']['full_name']; ?></h2>
-						<h3 id="position" style="font:bold 14px/16px 'Open Sans' Helvetica, Arial, sans-serif; letter-spacing:-1px; text-transform:propercase; color:<?php echo $options['colors']['secondary']; ?>; margin:0; padding:0;"><?php echo $options['sample_data']['position']; ?></h3>
+						<h2 id="full-name" style="font:bold 18px/22px 'Open Sans' Helvetica, Arial, sans-serif; letter-spacing:-1px; text-transform:capitalize; color:<?php echo $options['colors']['primary']; ?>; margin:0; padding:0;"><?php echo $options['sample_data']['full_name']; ?></h2>
+						<h3 id="position" style="font:bold 14px/16px 'Open Sans' Helvetica, Arial, sans-serif; letter-spacing:-1px; text-transform:capitalize; color:<?php echo $options['colors']['secondary']; ?>; margin:0; padding:0;"><?php echo $options['sample_data']['position']; ?></h3>
 					</td>
 				</tr>
 				<tr>
