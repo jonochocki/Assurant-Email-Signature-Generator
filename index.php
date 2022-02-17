@@ -76,13 +76,13 @@
 	<tr>
 		<td>
 			<a style="width:125px;; margin:16px 0 8px; display:block;" href="<?php echo $options['company_url']; ?>" target="_blank" title="<?php echo $options['company_name']; ?>">
-				<img src="<?php echo $options['logo_url']; ?>" alt="<?php echo $options['company_name']; ?>" width="125px;" />
+				<img src="<?php echo $options['logo_url']; ?>" alt="<?php echo $options['company_name']; ?>" width="180px;" />
 			</a>
 		</td>
 	</tr>
 	<tr>
 		<td colspan="2">
-			<address id="email-address" style="font: normal 10px/15px 'Open Sans', Helvetica, Arial, sans-serif; color:<?php echo $options['colors']['primary']; ?>;">
+			<address id="email-address" style="font: normal 14px/16px 'Open Sans', Helvetica, Arial, sans-serif; color:<?php echo $options['colors']['primary']; ?>;">
 				<?php
 					if($email_address != ''){
 						$print = 'Email: <a href="mailto:'.$email_address.'@'. $options['email_domain'] .'" target="_blank" style="color:'. $options['colors']['primary'] .'; text-decoration:none;">'.$email_address.'@'. $options['email_domain'] .'</a>';
@@ -90,7 +90,7 @@
 					}
 				?>
 			</address>
-			<address style="font: normal 10px/15px 'Open Sans', Helvetica, Arial, sans-serif; color:<?php echo $options['colors']['primary']; ?>;">
+			<address style="font: normal 14px/16px 'Open Sans', Helvetica, Arial, sans-serif; color:<?php echo $options['colors']['primary']; ?>;">
 				<?php
 					if($secondary_number != ''){
 						$print = $primary_number_prefix.': '.$primary_number.' | '.$secondary_number_prefix.': '.$secondary_number;
@@ -102,7 +102,7 @@
 				?>
 			</address>
 			<?php if( !$options['hide_address_field'] ) : ?>
-				<address style="font: normal 10px/15px 'Open Sans', Helvetica, Arial, sans-serif; color:<?php echo $options['colors']['primary']; ?>;">
+				<address style="font: normal 14px/16px 'Open Sans', Helvetica, Arial, sans-serif; color:<?php echo $options['colors']['primary']; ?>;">
 					<?php 
 						if($address != ''){
 							echo $address;
@@ -237,14 +237,14 @@
 				</tr>
 				<tr>
 					<td colspan="2">
-						<address id="email-address" style="font: normal 10px/15px 'Open Sans',  Helvetica, Arial, sans-serif; color:<?php echo $options['colors']['primary']; ?>;">
+						<address id="email-address" style="font: normal 14px/16px 'Open Sans',  Helvetica, Arial, sans-serif; color:<?php echo $options['colors']['primary']; ?>;">
 							<?php echo 'Email: ' . $options['sample_data']['email_address']; ?>
 						</address>
-						<address id="phone-number" style="font: normal 10px/15px 'Open Sans',  Helvetica, Arial, sans-serif; color:<?php echo $options['colors']['primary']; ?>;">
+						<address id="phone-number" style="font: normal 14px/16px 'Open Sans',  Helvetica, Arial, sans-serif; color:<?php echo $options['colors']['primary']; ?>;">
 							<?php echo 'Phone: ' . $options['sample_data']['phone_number']; ?>
 						</address>
 						<?php if( !$options['hide_address_field'] ) : ?>
-							<address id="address" style="font: normal 10px/15px 'Open Sans',  Helvetica, Arial, sans-serif; color:<?php echo $options['colors']['primary']; ?>">
+							<address id="address" style="font: normal 14px/16px 'Open Sans',  Helvetica, Arial, sans-serif; color:<?php echo $options['colors']['primary']; ?>">
 								<?php echo $options['address_list'][0][1]; ?>
 							</address>
 						<?php endif; ?>
