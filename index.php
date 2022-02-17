@@ -68,7 +68,7 @@
 <!-- EMAIL SIGNATURE OUTPUT -->
 <table style="width:600px; font-size:12px; font-family:'Open Sans',  Helvetica, Arial, sans-serif; margin:0; padding:0;">
 	<tr>
-		<td style="padding: 15px 5px;">
+		<td style="padding-bottom: 15px; padding-top: 15px;">
 			<h2 id="full-name" style="font:bold 18px/22px 'Open Sans',  Helvetica, Arial, sans-serif; letter-spacing:-1px; text-transform:capitalize; color:<?php echo $options['colors']['primary']; ?>; margin:0; padding:0;"><?php echo $full_name; ?></h2>
 			<h3 id="position" style="font:normal 14px/16px 'Open Sans',  Helvetica, Arial, sans-serif; text-transform:capitalize; color:<?php echo $options['colors']['primary']; ?>; margin:0; padding-top:8px;"><?php echo $position; ?></h3>
             <h3 style="font:normal 14px/16px 'Open Sans',  Helvetica, Arial, sans-serif; text-transform:capitalize; color:<?php echo $options['colors']['secondary']; ?>; margin:0; padding-top:1px;"><a href="<?php echo $options['company_url']; ?>" target="_blank" title="<?php echo $options['company_name']; ?>" style="color:'. $options['colors']['primary'] .'; text-decoration:none;"><?php echo $options['company_name']; ?></a></h3>
