@@ -38,7 +38,7 @@
 			array( 'Japan', '1-10-５ Akasaka, Minato, Tokyo 107-0052, Japan' ),
 			array( 'United Kingdom', '24 Grosvenor Square, London W1A 2LQ, United Kingdom' )
 		),
-		'hide_address_field' => false,
+		'hide_address_field' => true,
 		'sample_data' => array(
 			'full_name' => 'John Doe',
 			'position'  => 'Talent Acquisition',
