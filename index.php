@@ -117,7 +117,7 @@
 		<td style="padding-top: 10px;">
 			<?php if( $options['image_urls']['great_place'][0] != '' ) : ?>
 				<a href="<?php echo $options['image_urls']['great_place'][0]; ?>" target="_blank" title="great_place" style="text-align: center; display: inline-block; margin: 0px 8px 0 0;">
-					<img src="<?php echo $options['image_urls']['great_place'][1]; ?>" alt="great_place" height="100px" />
+					<img src="<?php echo $options['image_urls']['great_place'][1]; ?>" alt="great_place" height="120px" />
 				</a>
 			<?php endif; ?>
 			<?php if( $options['image_urls']['careers'][0] != '' ) : ?>
