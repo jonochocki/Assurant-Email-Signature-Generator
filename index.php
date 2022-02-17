@@ -273,6 +273,11 @@
 								<img src="<?php echo $options['image_urls']['we_care'][1]; ?>" alt="we_care" width="80px" />
 							</a>
 						<?php endif; ?>
+						<?php if( $options['image_urls']['referrals'][0] != '' ) : ?>
+							<a href="<?php echo $options['image_urls']['referrals'][0]; ?>" target="_blank" title="referrals" style="text-align: center; display: inline-block; margin: 0px 8px 0 0;">
+								<img src="<?php echo $options['image_urls']['referrals'][1]; ?>" alt="we_care" width="80px" />
+							</a>
+						<?php endif; ?>
 					</td>
 				</tr>
 			</table>
