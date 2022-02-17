@@ -1,11 +1,11 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,800;1,400&display=swap);
 
 /* ========================= */
 
 *{ margin: 0; padding: 0; border: none; vertical-align: top; }
 
 body{ 
-	font: normal 13px/20px 'Lato', Arial, sans-serif; 
+	font: normal 13px/20px 'Open Sans', Helvetica, Arial, sans-serif; 
 	background: #f3f3f3; 
 	color: #888;
 	-webkit-font-smoothing: antialiased;
@@ -20,7 +20,7 @@ strong { font-weight: bold; }
 
 h1{
 	width: 600px;
-	font: 300 42px/1 'Lato', Arial, sans-serif;
+	font: 300 42px/1 'Open Sans', Helvetica, Arial, sans-serif;
 	color: #fff;
 	letter-spacing: -1px;
 	/*text-transform: uppercase;*/
@@ -51,7 +51,7 @@ ol li{
 }
 
 .contact-details .email-domain{
-	font: normal 16px/16px 'Lato', Arial, sans-serif;
+	font: normal 16px/16px 'Open Sans', Arial, sans-serif;
 	display: inline-block;
 	margin-top: 14px;
 	vertical-align: middle;
@@ -64,13 +64,13 @@ form{
 }
 
 form label{
-	font: bold 14px/14px 'Lato', Arial, sans-serif;
+	font: bold 14px/14px 'Open Sans', Helvetica, Arial, sans-serif;
 	color: #888;
 }
 
 form select{
 	width: 100%;
-	font: normal 16px/19px 'Lato', Arial, sans-serif;
+	font: normal 16px/19px 'Open Sans', Helvetica, Arial, sans-serif;
 	color: #aaa;
 	background: #fff url('images/select-arrow.png') 97.5% center no-repeat;
 	border: 1px solid #ccc;
@@ -91,7 +91,7 @@ form select:focus{
 
 form input[type="text"]{
 	width: 100%;
-	font: normal 16px/1 'Lato', Arial, sans-serif; 
+	font: normal 16px/1 'Open Sans', Helvetica, Arial, sans-serif; 
 	color: #aaa;
 	background: #fff;
 	border: 1px solid #ccc;
@@ -103,7 +103,7 @@ form input[type="text"]{
 }
 
 form input[type="submit"]{
-	font: 300 20px/1 'Lato', Arial, sans-serif; 
+	font: 300 20px/1 'Open Sans', Helvetica, Arial, sans-serif; 
 	color: #fff;
 	/*text-transform: uppercase;*/
 	letter-spacing: -1px;
@@ -165,7 +165,7 @@ form input[type="text"]:focus{
 
 .client-links li a{
 	width: 100%;
-	font: 300 20px/1 'Lato', Arial, sans-serif; 
+	font: 300 20px/1 'Open Sans', Arial, sans-serif; 
 	color: #fff;
 	/*text-transform: uppercase;*/
 	letter-spacing: -1px;
