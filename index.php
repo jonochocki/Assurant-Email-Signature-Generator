@@ -161,6 +161,7 @@
 </head>
 <body>
 	<div class="page-header">
+        <h1>Assurant</h1>
 		<h1>Email Signature Generator</h1>
 	</div>
 
