@@ -4,7 +4,7 @@
 		'company_name' => 'Assurant',
 		'company_url'  => 'https://assurant.com', 
 		'email_domain' => 'assurant.com', // Do not prepend with http://
-		'logo_url'     => 'https://raw.githubusercontent.com/jonochocki/Assurant-Email-Signature-Generator/main/images/assurant-logo.png',  // Must be an absolute path
+		'logo_url'     => 'https://storage.pardot.com/438242/1645200618k4GHsfba/assurant_logo.png',  // Must be an absolute path
 		'colors'       => array(
 			'primary'   => '#646464', // Name, emal address, phone and address
 			'secondary' => '#0066cc', // Title/position
@@ -13,27 +13,27 @@
 		'image_urls' => array(
 			'great_place'  => array(
 				'https://www.greatplacetowork.com/certified-company/1205926', // Hide by setting this to an empty string
-				'https://raw.githubusercontent.com/jonochocki/Assurant-Email-Signature-Generator/main/images/thumbnail_image002.png'  // Must be an absolute path
+				'https://storage.pardot.com/438242/1645200618NqRW29HS/thumbnail_great_place_to_work.png'  // Must be an absolute path
 			),
 			'careers'   => array(
 				'https://www.myworkday.com/assurant/d/task/1422$80.htmld', // Hide by setting this to an empty string
-				'https://raw.githubusercontent.com/jonochocki/Assurant-Email-Signature-Generator/main/images/thumbnail_image003.png'  // Must be an absolute path
+				'https://storage.pardot.com/438242/1645200618bpC4p3yK/thumbnail_careers.png'  // Must be an absolute path
 			),
 			'awards' => array(
 				'https://jobs.assurant.com/awards/?source=emailsignature', // Hide by setting this to an empty string
-				'https://raw.githubusercontent.com/jonochocki/Assurant-Email-Signature-Generator/main/images/thumbnail_image004.png'  // Must be an absolute path
+				'https://storage.pardot.com/438242/1645200618hPbZuOKe/thumbnail_awards.png'  // Must be an absolute path
 			),
 			'dei'     => array(
 				'https://www.assurant.com/our-story/diversity?utm_source=outlook&utm_medium=email&utm_campaign=signature&utm_content=click', // Hide by setting this to an empty string
-				'https://raw.githubusercontent.com/jonochocki/Assurant-Email-Signature-Generator/main/images/thumbnail_image005.png'  // Must be an absolute path
+				'https://storage.pardot.com/438242/1645200618zaMJJska/thumbnail_dei.png'  // Must be an absolute path
 			),
 			'we_care'  => array(
 				'https://www.assurant.com/our-story/social-responsibility?utm_source=outlook&utm_medium=email&utm_campaign=signature&utm_content=click', // Hide by setting this to an empty string
-				'https://raw.githubusercontent.com/jonochocki/Assurant-Email-Signature-Generator/main/images/thumbnail_image006.png'  // Must be an absolute path
+				'https://storage.pardot.com/438242/1645200619phwLjpD4/thumbnail_we_care.png'  // Must be an absolute path
 			),
 			'referrals'  => array(
 				'https://assurantconnects.sharepoint.com/teams/learning/MyHRWD/Workday%20Job%20Aids/EmpRefJobSrch-JA.pdf', // Hide by setting this to an empty string
-				'https://raw.githubusercontent.com/jonochocki/Assurant-Email-Signature-Generator/main/images/thumbnail_image007.png'  // Must be an absolute path
+				'https://storage.pardot.com/438242/1645200618fViOrVhp/thumbnail_referrals.png'  // Must be an absolute path
 			)
 		),
 		'address_list' => array(
