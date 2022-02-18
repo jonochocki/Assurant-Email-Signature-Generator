@@ -5,6 +5,7 @@
 		'company_url'  => 'https://assurant.com', 
 		'email_domain' => 'assurant.com', // Do not prepend with http://
 		'logo_url'     => 'https://storage.pardot.com/438242/1645200618k4GHsfba/assurant_logo.png',  // Must be an absolute path
+		'custom_font'  => 'https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,800;1,400&display=swap',  // Best with Google Web Fonts. Must be an absolute path
 		'colors'       => array(
 			'primary'   => '#646464', // Name, emal address, phone and address
 			'secondary' => '#0066cc', // Title/position
@@ -66,12 +67,24 @@
 ?>
 
 <!-- EMAIL SIGNATURE OUTPUT -->
-<table style="width:600px; font-size:12px; font-family:'Open Sans',  Helvetica, Arial, sans-serif; margin:0; padding:0;">
+<style type="text/css">
+@media screen {
+  @font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans'), url(<?php echo $options['custom_font']; ?>) format('woff');
+  }
+
+  table {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  }
+</style>
+
+<table style="width:600px; font-size:12px; font-family:'Open Sans', Helvetica, Arial, sans-serif; margin:0; padding:0;">
 	<tr>
 		<td style="border-top: 2px solid <?php echo $options['colors']['tertiary']; ?>; padding-bottom: 15px; padding-top: 15px;">
-			<h2 id="full-name" style="font:bold 18px/22px 'Open Sans',  Helvetica, Arial, sans-serif; letter-spacing:-1px; text-transform:capitalize; color:<?php echo $options['colors']['primary']; ?>; margin:0; padding:0;"><?php echo $full_name; ?></h2>
-			<h3 id="position" style="font:normal 14px/16px 'Open Sans',  Helvetica, Arial, sans-serif; text-transform:capitalize; color:<?php echo $options['colors']['primary']; ?>; margin:0; padding-top:8px;"><?php echo $position; ?></h3>
-            <h3 style="font:normal 14px/16px 'Open Sans',  Helvetica, Arial, sans-serif; text-transform:capitalize; color:<?php echo $options['colors']['secondary']; ?>; margin:0; padding-top:1px;"><a href="<?php echo $options['company_url']; ?>" target="_blank" title="<?php echo $options['company_name']; ?>" style="color:'. $options['colors']['primary'] .'; text-decoration:none;"><?php echo $options['company_name']; ?></a></h3>
+			<h2 id="full-name" style="font:bold 18px/22px 'Open Sans', Helvetica, Arial, sans-serif; letter-spacing:-1px; text-transform:capitalize; color:<?php echo $options['colors']['primary']; ?>; margin:0; padding:0;"><?php echo $full_name; ?></h2>
+			<h3 id="position" style="font:normal 14px/16px 'Open Sans', Helvetica, Arial, sans-serif; text-transform:capitalize; color:<?php echo $options['colors']['primary']; ?>; margin:0; padding-top:8px;"><?php echo $position; ?></h3>
+            <h3 style="font:normal 14px/16px 'Open Sans', Helvetica, Arial, sans-serif; text-transform:capitalize; color:<?php echo $options['colors']['secondary']; ?>; margin:0; padding-top:1px;"><a href="<?php echo $options['company_url']; ?>" target="_blank" title="<?php echo $options['company_name']; ?>" style="color:'. $options['colors']['primary'] .'; text-decoration:none;"><?php echo $options['company_name']; ?></a></h3>
 		</td>
 	</tr>
 	<tr>
