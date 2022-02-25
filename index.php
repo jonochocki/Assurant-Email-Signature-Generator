@@ -124,7 +124,7 @@
 	<tr>
 		<td>
 			<a style="width:180px; margin:16px 0 8px; display:block;" href="<?php echo $options['company_url']; ?>" target="_blank" title="<?php echo $options['company_name']; ?>">
-				<img src="<?php echo $options['logo_url']; ?>" alt="<?php echo $options['company_name']; ?>" width="180px;" />
+				<img src="<?php echo $options['logo_url']; ?>" alt="<?php echo $options['company_name']; ?>" width="180" height="38" />
 			</a>
 		</td>
 	</tr>
@@ -132,32 +132,32 @@
 		<td style="padding-top: 10px;">
 			<?php if( $options['image_urls']['great_place'][0] != '' ) : ?>
 				<a href="<?php echo $options['image_urls']['great_place'][0]; ?>" target="_blank" title="great_place" style="text-align: center; display: inline-block; margin: 0px 8px 0 0;">
-					<img src="<?php echo $options['image_urls']['great_place'][1]; ?>" alt="great_place" width="70.5px" height="120px" />
+					<img src="<?php echo $options['image_urls']['great_place'][1]; ?>" alt="great_place" width="70.5" height="120" />
 				</a>
 			<?php endif; ?>
 			<?php if( $options['image_urls']['careers'][0] != '' ) : ?>
 				<a href="<?php echo $options['image_urls']['careers'][0]; ?>" target="_blank" title="careers" style="text-align: center; display: inline-block; margin: 0px 8px 0 0;">
-					<img src="<?php echo $options['image_urls']['careers'][1]; ?>" alt="careers" width="80px" />
+					<img src="<?php echo $options['image_urls']['careers'][1]; ?>" alt="careers" width="80" height="107" />
 				</a>
 			<?php endif; ?>
 			<?php if( $options['image_urls']['awards'][0] != '' ) : ?>
 				<a href="<?php echo $options['image_urls']['awards'][0]; ?>" target="_blank" title="awards" style="text-align: center; display: inline-block; margin: 0px 8px 0 0;">
-					<img src="<?php echo $options['image_urls']['awards'][1]; ?>" alt="awards" width="80px" />
+					<img src="<?php echo $options['image_urls']['awards'][1]; ?>" alt="awards" width="80" height="107" />
 				</a>
 			<?php endif; ?>
 			<?php if( $options['image_urls']['dei'][0] != '' ) : ?>
 				<a href="<?php echo $options['image_urls']['dei'][0]; ?>" target="_blank" title="dei" style="text-align: center; display: inline-block; margin: 0px 8px 0 0;">
-					<img src="<?php echo $options['image_urls']['dei'][1]; ?>" alt="dei" width="80px" />
+					<img src="<?php echo $options['image_urls']['dei'][1]; ?>" alt="dei" width="80" height="107" />
 				</a>
 			<?php endif; ?>
 			<?php if( $options['image_urls']['we_care'][0] != '' ) : ?>
 				<a href="<?php echo $options['image_urls']['we_care'][0]; ?>" target="_blank" title="we_care" style="text-align: center; display: inline-block; margin: 0px 8px 0 0;">
-					<img src="<?php echo $options['image_urls']['we_care'][1]; ?>" alt="we_care" width="80px" />
+					<img src="<?php echo $options['image_urls']['we_care'][1]; ?>" alt="we_care" width="80" height="107" />
 				</a>
 			<?php endif; ?>
 			<?php if( $options['image_urls']['referrals'][0] != '' ) : ?>
 				<a href="<?php echo $options['image_urls']['referrals'][0]; ?>" target="_blank" title="referrals" style="text-align: center; display: inline-block; margin: 0px 8px 0 0;">
-					<img src="<?php echo $options['image_urls']['referrals'][1]; ?>" alt="we_care" width="80px" />
+					<img src="<?php echo $options['image_urls']['referrals'][1]; ?>" alt="we_care" width="80" height="107" />
 				</a>
 			<?php endif; ?>
 		</td>
