@@ -1,7 +1,7 @@
 # Email Signature Generator
 Create and manage unified email signatures for your entire Assurant team. 
 
-Demo: <http://jonlebron.com/github/> 
+Demo: <http://jonlebron.com/github/assurant> 
 
 Options include:
 - Company name, URL and logo
