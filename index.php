@@ -265,7 +265,7 @@
 				<tr>
 					<td>
 						<a style="margin:16px 0 8px; display:block;" href="<?php echo $options['company_url']; ?>" target="_blank" title="<?php echo $options['company_name']; ?>">
-							<img src="<?php echo $options['logo_url']; ?>" alt="<?php echo $options['company_name']; ?>" width="50" height="85" />
+							<img src="<?php echo $options['logo_url']; ?>" alt="<?php echo $options['company_name']; ?>" width="142" height="30" />
 						</a>
 					</td>
 				</tr>
@@ -273,7 +273,7 @@
 					<td style="padding-top: 10px;">
 						<?php if( $options['image_urls']['great_place'][0] != '' ) : ?>
 							<a href="<?php echo $options['image_urls']['great_place'][0]; ?>" target="_blank" title="great_place" style="text-align: center; display: inline-block; margin: 0px 8px 0 0;">
-								<img src="<?php echo $options['image_urls']['great_place'][1]; ?>" alt="great_place" height="120px" />
+								<img src="<?php echo $options['image_urls']['great_place'][1]; ?>" alt="great_place" width="50" height="85" />
 							</a>
 						<?php endif; ?>
 						<?php if( $options['image_urls']['careers'][0] != '' ) : ?>
@@ -293,12 +293,12 @@
 						<?php endif; ?>
 						<?php if( $options['image_urls']['we_care'][0] != '' ) : ?>
 							<a href="<?php echo $options['image_urls']['we_care'][0]; ?>" target="_blank" title="we_care" style="text-align: center; display: inline-block; margin: 0px 8px 0 0;">
-								<img src="<?php echo $options['image_urls']['we_care'][1]; ?>" alt="we_care" width="80px" />
+								<img src="<?php echo $options['image_urls']['we_care'][1]; ?>" alt="we_care" width="60" height="80" />
 							</a>
 						<?php endif; ?>
 						<?php if( $options['image_urls']['referrals'][0] != '' ) : ?>
 							<a href="<?php echo $options['image_urls']['referrals'][0]; ?>" target="_blank" title="referrals" style="text-align: center; display: inline-block; margin: 0px 8px 0 0;">
-								<img src="<?php echo $options['image_urls']['referrals'][1]; ?>" alt="we_care" width="80px" />
+								<img src="<?php echo $options['image_urls']['referrals'][1]; ?>" alt="we_care"width="60" height="80" />
 							</a>
 						<?php endif; ?>
 					</td>
