@@ -241,7 +241,7 @@
 		<div class="signature-preview">
 			<table style="width:100%;">
 				<tr>
-					<td style="border-top: 2px solid <?php echo $options['colors']['tertiary']; ?>; padding-bottom: 15px; padding-top: 15px;">
+					<td style="padding-bottom: 15px; padding-top: 15px;">
 						<h2 id="full-name" style="font:bold 18px/22px 'Open Sans', Helvetica, Arial, sans-serif; letter-spacing:-1px; text-transform:capitalize; color:<?php echo $options['colors']['primary']; ?>; margin:0; padding:0;"><?php echo $options['sample_data']['full_name']; ?></h2>
 						<h3 id="position" style="font:normal 14px/16px 'Open Sans', Helvetica, Arial, sans-serif; letter-spacing:-1px; text-transform:capitalize; color:<?php echo $options['colors']['secondary']; ?>; margin:0; padding-top:5px;"><?php echo $options['sample_data']['position']; ?></h3>
                         <h3 style="font:normal 14px/16px 'Open Sans',  Helvetica, Arial, sans-serif; text-transform:capitalize; color:<?php echo $options['colors']['secondary']; ?>; margin:0; padding-top:1px;"><a href="<?php echo $options['company_url']; ?>" target="_blank" title="<?php echo $options['company_name']; ?>" style="color:'. $options['colors']['primary'] .'; text-decoration:none;"><?php echo $options['company_name']; ?></a></h3>
@@ -264,8 +264,8 @@
 				</tr>
 				<tr>
 					<td>
-						<a style="width:180px; margin:16px 0 8px; display:block;" href="<?php echo $options['company_url']; ?>" target="_blank" title="<?php echo $options['company_name']; ?>">
-							<img src="<?php echo $options['logo_url']; ?>" alt="<?php echo $options['company_name']; ?>" width="180px" />
+						<a style="margin:16px 0 8px; display:block;" href="<?php echo $options['company_url']; ?>" target="_blank" title="<?php echo $options['company_name']; ?>">
+							<img src="<?php echo $options['logo_url']; ?>" alt="<?php echo $options['company_name']; ?>" width="50" height="85" />
 						</a>
 					</td>
 				</tr>
@@ -278,17 +278,17 @@
 						<?php endif; ?>
 						<?php if( $options['image_urls']['careers'][0] != '' ) : ?>
 							<a href="<?php echo $options['image_urls']['careers'][0]; ?>" target="_blank" title="careers" style="text-align: center; display: inline-block; margin: 0px 8px 0 0;">
-								<img src="<?php echo $options['image_urls']['careers'][1]; ?>" alt="careers" width="80px" />
+								<img src="<?php echo $options['image_urls']['careers'][1]; ?>" alt="careers" width="60" height="80" />
 							</a>
 						<?php endif; ?>
 						<?php if( $options['image_urls']['awards'][0] != '' ) : ?>
 							<a href="<?php echo $options['image_urls']['awards'][0]; ?>" target="_blank" title="awards" style="text-align: center; display: inline-block; margin: 0px 8px 0 0;">
-								<img src="<?php echo $options['image_urls']['awards'][1]; ?>" alt="awards" width="80px" />
+								<img src="<?php echo $options['image_urls']['awards'][1]; ?>" alt="awards" width="60" height="80" />
 							</a>
 						<?php endif; ?>
 						<?php if( $options['image_urls']['dei'][0] != '' ) : ?>
 							<a href="<?php echo $options['image_urls']['dei'][0]; ?>" target="_blank" title="dei" style="text-align: center; display: inline-block; margin: 0px 8px 0 0;">
-								<img src="<?php echo $options['image_urls']['dei'][1]; ?>" alt="dei" width="80px" />
+								<img src="<?php echo $options['image_urls']['dei'][1]; ?>" alt="dei" width="60" height="80" />
 							</a>
 						<?php endif; ?>
 						<?php if( $options['image_urls']['we_care'][0] != '' ) : ?>
