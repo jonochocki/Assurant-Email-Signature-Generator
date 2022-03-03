@@ -17,7 +17,7 @@
 				'https://storage.pardot.com/438242/1645200618NqRW29HS/thumbnail_great_place_to_work.png'  // Must be an absolute path
 			),
 			'careers'   => array(
-				'https://www.myworkday.com/assurant/d/task/1422$80.htmld', // Hide by setting this to an empty string
+				'https://jobs.assurant.com/?source=emailsignature', // Hide by setting this to an empty string
 				'https://storage.pardot.com/438242/1645200618bpC4p3yK/thumbnail_careers.png'  // Must be an absolute path
 			),
 			'awards' => array(
@@ -33,7 +33,7 @@
 				'https://storage.pardot.com/438242/1645200619phwLjpD4/thumbnail_we_care.png'  // Must be an absolute path
 			),
 			'referrals'  => array(
-				'https://assurantconnects.sharepoint.com/teams/learning/MyHRWD/Workday%20Job%20Aids/EmpRefJobSrch-JA.pdf', // Hide by setting this to an empty string
+				'https://assurantconnects.sharepoint.com/teams/learning/MyHRWD/Workday%20Job%20Aids/EmpReferral-JA-32_.pdf', // Hide by setting this to an empty string
 				'https://storage.pardot.com/438242/1645200618fViOrVhp/thumbnail_referrals.png'  // Must be an absolute path
 			)
 		),
@@ -80,7 +80,7 @@
 
 <table style="width:600px; font-size:12px; font-family:'Open Sans', Helvetica, Arial, sans-serif; margin:0; padding:0;">
 	<tr>
-		<td style="border-top: 2px solid <?php echo $options['colors']['tertiary']; ?>; padding-bottom: 15px; padding-top: 15px;">
+		<td style="padding-bottom: 15px; padding-top: 15px;">
 			<h2 id="full-name" style="font:bold 18px/22px 'Open Sans', Helvetica, Arial, sans-serif; text-transform:capitalize; color:<?php echo $options['colors']['primary']; ?>; margin:0; padding:0;"><?php echo $full_name; ?></h2>
 			<h3 id="position" style="font:normal 14px/16px 'Open Sans', Helvetica, Arial, sans-serif; text-transform:capitalize; color:<?php echo $options['colors']['primary']; ?>; margin:0; padding-top:8px;"><?php echo $position; ?></h3>
             <h3 style="font:normal 14px/16px 'Open Sans', Helvetica, Arial, sans-serif; text-transform:capitalize; color:<?php echo $options['colors']['secondary']; ?>; margin:0; padding-top:1px;"><a href="<?php echo $options['company_url']; ?>" target="_blank" title="<?php echo $options['company_name']; ?>" style="color:'. $options['colors']['primary'] .'; text-decoration:none;"><?php echo $options['company_name']; ?></a></h3>
@@ -123,8 +123,8 @@
 	</tr>
 	<tr>
 		<td>
-			<a style="width:180px; margin:16px 0 8px; display:block;" href="<?php echo $options['company_url']; ?>" target="_blank" title="<?php echo $options['company_name']; ?>">
-				<img src="<?php echo $options['logo_url']; ?>" alt="<?php echo $options['company_name']; ?>" width="180" height="38" />
+			<a style="width:142px; margin:16px 0 8px; display:block;" href="<?php echo $options['company_url']; ?>" target="_blank" title="<?php echo $options['company_name']; ?>">
+				<img src="<?php echo $options['logo_url']; ?>" alt="<?php echo $options['company_name']; ?>" width="142" height="30" />
 			</a>
 		</td>
 	</tr>
@@ -132,32 +132,32 @@
 		<td style="padding-top: 10px;">
 			<?php if( $options['image_urls']['great_place'][0] != '' ) : ?>
 				<a href="<?php echo $options['image_urls']['great_place'][0]; ?>" target="_blank" title="great_place" style="text-align: center; display: inline-block; margin: 0px 8px 0 0;">
-					<img src="<?php echo $options['image_urls']['great_place'][1]; ?>" alt="great_place" width="70.5" height="120" />
+					<img src="<?php echo $options['image_urls']['great_place'][1]; ?>" alt="great_place" width="50" height="85" />
 				</a>
 			<?php endif; ?>
 			<?php if( $options['image_urls']['careers'][0] != '' ) : ?>
 				<a href="<?php echo $options['image_urls']['careers'][0]; ?>" target="_blank" title="careers" style="text-align: center; display: inline-block; margin: 0px 8px 0 0;">
-					<img src="<?php echo $options['image_urls']['careers'][1]; ?>" alt="careers" width="80" height="107" />
+					<img src="<?php echo $options['image_urls']['careers'][1]; ?>" alt="careers" width="60" height="80" />
 				</a>
 			<?php endif; ?>
 			<?php if( $options['image_urls']['awards'][0] != '' ) : ?>
 				<a href="<?php echo $options['image_urls']['awards'][0]; ?>" target="_blank" title="awards" style="text-align: center; display: inline-block; margin: 0px 8px 0 0;">
-					<img src="<?php echo $options['image_urls']['awards'][1]; ?>" alt="awards" width="80" height="107" />
+					<img src="<?php echo $options['image_urls']['awards'][1]; ?>" alt="awards" width="60" height="80" />
 				</a>
 			<?php endif; ?>
 			<?php if( $options['image_urls']['dei'][0] != '' ) : ?>
 				<a href="<?php echo $options['image_urls']['dei'][0]; ?>" target="_blank" title="dei" style="text-align: center; display: inline-block; margin: 0px 8px 0 0;">
-					<img src="<?php echo $options['image_urls']['dei'][1]; ?>" alt="dei" width="80" height="107" />
+					<img src="<?php echo $options['image_urls']['dei'][1]; ?>" alt="dei" width="60" height="80" />
 				</a>
 			<?php endif; ?>
 			<?php if( $options['image_urls']['we_care'][0] != '' ) : ?>
 				<a href="<?php echo $options['image_urls']['we_care'][0]; ?>" target="_blank" title="we_care" style="text-align: center; display: inline-block; margin: 0px 8px 0 0;">
-					<img src="<?php echo $options['image_urls']['we_care'][1]; ?>" alt="we_care" width="80" height="107" />
+					<img src="<?php echo $options['image_urls']['we_care'][1]; ?>" alt="we_care" width="60" height="80" />
 				</a>
 			<?php endif; ?>
 			<?php if( $options['image_urls']['referrals'][0] != '' ) : ?>
 				<a href="<?php echo $options['image_urls']['referrals'][0]; ?>" target="_blank" title="referrals" style="text-align: center; display: inline-block; margin: 0px 8px 0 0;">
-					<img src="<?php echo $options['image_urls']['referrals'][1]; ?>" alt="we_care" width="80" height="107" />
+					<img src="<?php echo $options['image_urls']['referrals'][1]; ?>" alt="we_care" width="60" height="80" />
 				</a>
 			<?php endif; ?>
 		</td>
